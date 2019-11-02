@@ -39,6 +39,23 @@ ul.navbar a:active {
   color: #FFFFFF;
 }
 
+div.video a:link {
+  color: #FFFFFF;
+}
+div.video a:visited {
+  color: #FF8888;
+}
+div.video a:hover {
+  color: #DDDDDD;
+}
+div.video a:active {
+  color: #FFFFFF;
+}
+
+li {
+  margin-bottom: 35%;
+}
+
 div.feature { /* I have no idea how this works but it does */
   position: relative;
 }
@@ -53,9 +70,23 @@ div.feature a {
     background-color: #FFF;
     opacity: 0;
     filter: alpha(opacity=1);
-}
+} /* And that's the end of the 'how does this work' section*/
 
 table.videos {
   width: 50%;
   margin: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+video.player {
+  width: 640px;
+  height: 360px;
+}
+
+div.video_container {
+  width: 640px;
+  font-size: 20px;
 }
